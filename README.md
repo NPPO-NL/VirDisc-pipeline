@@ -12,14 +12,14 @@ https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/current/
 https://resources.qiagenbioinformatics.com/manuals/clcserver/current/admin/User_Manual.pdf.
 
 _CEAs, dependencies and importing CEA xml_
-Information about CEAs and their dependencies can be found at https://github.com/NPPO-NL/CLC-External-Applications. The VirDisc pipelines uses the following CEAs: 
+Information about CEAs and their dependencies can be found at https://github.com/NPPO-NL/CLC-External-Applications. The VirDisc pipelines uses the following CEAs:\ 
 - CEA001_blastn
 - CEA002_DIAMOND
 - CEA003_Chunk_file
 - CEA004_Select_chunks_without_hits
 - CEA005_Krona
 - CEA007_BLASTn_taxonomy_sorter
-- CEA008_Sequence_selector
+- CEA008_Sequence_selector\
 After installing CEAs and their dependencies, the CEAs need to be configured correctly. To configure different aspects of a CLC Server, including importing the CEA configuration file, a web portal is available for administrators. Download "VirDisc-CEA-configuration.xml" to a location accessible to your CLC web portal. Subsequently, access your CLC web portal, navigate to “Extensions” and “External applications”. The external application configuration file can be imported to a CLC Server by clicking on the “Import configuration...” button. Browse and select the xml file.
 After importing the xml, make sure that the paths to the scripts are all accessible. Paths to scripts and or databases can be changed manually for each individual CEA, in the command line text box within the external application editing view (Figure 27). This step is mandatory if the scripts and or databases cannot be found in the specific locations of the CEA configuration file.
 
