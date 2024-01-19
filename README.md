@@ -11,7 +11,7 @@ Up to date installation guides regarding CLC Genomics Workbench and CLC Server c
 https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/current/User_Manual.pdf. 
 https://resources.qiagenbioinformatics.com/manuals/clcserver/current/admin/User_Manual.pdf.
 
-_CEAs, dependencies and importing CEA xml_
+_CEAs, dependencies and importing CEA xml_ \
 Information about CEAs and their dependencies can be found at https://github.com/NPPO-NL/CLC-External-Applications. The VirDisc pipelines uses the following CEAs: 
 - CEA001_blastn
 - CEA002_DIAMOND
